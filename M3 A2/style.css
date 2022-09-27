@@ -1,0 +1,20 @@
+nav {
+    /* width: 200px; */
+    margin: 0;
+    padding: 0;
+    /* width: 200px; */
+
+}
+
+a {
+    display: block;
+    background-color: rgb(151,153,153);
+    text-decoration: none;
+    color: whitesmoke;
+    padding: 4px;
+    float: left;
+    min-width: 90px;
+}
+a:hover {
+    background-color: burlywood;
+}

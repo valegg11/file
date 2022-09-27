@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table, tr, th, td{
+            border: 2px solid blue;
+            border-collapse:collapse ;
+        }    
+        table {
+            width: 100%;
+        }
+        th{
+            height: 70px;
+            background-color: aqua;
+        }
+        td{
+            height: 70px;
+            text-align: center;
+            vertical-align: top;
+            padding: 20px;
+            
+        }
+        tr:hover{
+            background-color: #bcbcbd;
+        }
+        tr:nth-child(odd) {
+            background-color: #bcbcbd;
+        }
+
+    </style>
+</head>
+<body>
+    <table>
+        <tr>
+            <th> barang </th>
+            <th> harga </th>
+        </tr>
+        <tr>
+            <td>pensil faber castle </td>
+            <td> 7000</td>
+        </tr>
+        <tr>
+            <td>pulpen faster</td>
+            <td> 7500 </td>
+        </tr>
+    </table>
+
+    <table>
+        <tr>
+            <th> no </th>
+            <th> barang </th>
+            <th colspan="2">harga</th>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td>grosir</td>
+            <td>eceran</td>
+        </tr>
+       
+        <tr>
+            <td>1 </td>
+            <td>pensil faber castle</td>
+            <td>70000/lusin</td>
+            <td>7000/buah</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>pulpen faster</td>
+            <td>75000/lusin</td>
+            <td>7500/buah</td>
+
+        </tr>
+    </table>
+
+    <table>
+        <tr>
+            <th rowspan="2">no</th>
+            <th rowspan="2">barang</th>
+            <th colspan="2">harga</th></td>
+        </tr>
+        <tr>
+            <td>grosir</td>
+            <td>eceran</td>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>pensil faber castle</td>
+            <td>70000/lusin</td>
+            <td>7000/buah</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>pulpen faster</td>
+            <td>75000/lusin</td>
+            <td>7500/buah</td>
+        </tr>
+    </table>
+</body>
+</html>
